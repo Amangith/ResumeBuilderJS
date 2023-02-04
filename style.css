@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 120vh;
+}
+.form-container{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 10px 20px 50px grey;
+    overflow: scroll;
+}
+.resume-container{
+    width: 70%;
+    background-color: rgb(221,219,219);
+}
+input{
+    display: block;
+    width: 95%;
+    color: grey;
+
+}
+.submit-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(89,89,238);;
+    color: white;
+    border-radius: 20px;
+}
+.resume{
+    background-color: white;
+    width: 70%;
+    height: 90%;
+    margin: 40px auto;
+    display: flex;
+    box-shadow: 10px 20px 50px grey;
+}
+.left-section{
+    width: 30%;
+    background-color: rgb(89,89,238);
+    color: white;
+}
+.image-container img{
+    height: 170px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid white;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.profile-container,.skills-container{
+    margin-top: 15px;
+}
+.profile-heading, .skills-heading{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(85,84,84);
+    padding: 5px;
+}
+.profile-heading span, .skills-heading span{
+    margin-left: 5px;
+}
+.profile-details, .skills-details{
+    padding: 10px;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.key{
+    font-size: 14px;
+    font-weight: bold;
+}
+.value{
+    font-size: 14px;
+}
+.right-section{
+    width: 70%;
+    padding: 20px;
+}
+.work-experience, .education{
+    margin-top: 30px;
+}
+.work-ex-details{
+    margin-top: 10px;
+}
+.company-name{
+    font-size: 17px;
+    font-weight: bold;
+}
+.role{
+    font-size: 15px;
+}
+.project{
+    margin-top: 8px;
+}
+.college-name{
+    font-weight: bold;
+}
+.college-details{
+    margin-top: 10px;
+}
